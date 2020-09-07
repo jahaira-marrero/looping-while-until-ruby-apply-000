@@ -2,13 +2,12 @@ def using_while
   levitation_force = 6
   while levitation_force < 10
 	   levitation_force += 1
-	puts "Wingardium Leviosa #{levitation_force}"
+	puts "Wingardium Leviosa"
 	end
-	
-	levitation_force = 6
+	puts "Your levitation force has now reached #{levitation_force}."
 	until levitation_force == 20
 	 puts "Wingardium Leviosa is less than 20."
-	 levitation_force += 10
+	 levitation_force += 1
 	end
   #your code here
 end
