@@ -4,7 +4,7 @@ def using_while
   
   loop do
    levitation_force = levitation_force + 1
-	puts "Wingardium Leviosa."
+	puts "Wingardium Leviosa"
 	
 	if levitation_force >= 10
 	break
