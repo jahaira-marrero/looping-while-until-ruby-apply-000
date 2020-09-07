@@ -1,9 +1,9 @@
 def using_while
   
-  levitation_force = 0
+  counter = 0
   
   loop do
-   levitation_force = levitation_force + 1
+   levitation_force = counter + 1
 	puts "Wingardium Leviosa"
 	
 	if levitation_force >= 10
